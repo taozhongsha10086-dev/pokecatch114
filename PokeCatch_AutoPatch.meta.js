@@ -1,20 +1,15 @@
 // ==UserScript==
-// @name         PokeCatch 自动补丁（Edge / 安卓 Firefox）
+// @name         PokeCatch 辅助面板（Edge / 安卓 Firefox）
 // @namespace    local.pokecatch.custom
-// @version      0.6.1
-// @description  PokeCatch 自动补丁；Edge / 安卓 Firefox；由 GitHub 固定地址自动升级
+// @version      0.6.2
+// @description  只读游戏版本兼容监测与官方树果效果说明；不拦截或修改游戏代码和结算
 // @match        https://pokecatch-online.app/*
 // @match        https://www.pokecatch-online.app/*
 // @match        https://pokecatch-online.netlify.app/*
 // @match        https://pokecatch-online.pages.dev/*
 // @run-at       document-start
 // @noframes
-// @grant        GM_xmlhttpRequest
-// @grant        unsafeWindow
-// @connect      pokecatch-online.pages.dev
-// @connect      pokecatch-online.netlify.app
-// @connect      pokecatch-online.app
-// @connect      www.pokecatch-online.app
+// @grant        none
 // @homepageURL  https://github.com/taozhongsha10086-dev/pokecatch114
 // @supportURL   https://github.com/taozhongsha10086-dev/pokecatch114/issues
 // @updateURL    https://raw.githubusercontent.com/taozhongsha10086-dev/pokecatch114/main/PokeCatch_AutoPatch.meta.js
